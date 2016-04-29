@@ -1,0 +1,6 @@
+c:\users\klim2\documents\visual studio 2010\Projects\exampleAdapter1\exampleAdapter1\bin\Debug\exampleAdapter1.exe
+c:\users\klim2\documents\visual studio 2010\Projects\exampleAdapter1\exampleAdapter1\bin\Debug\exampleAdapter1.pdb
+c:\users\klim2\documents\visual studio 2010\Projects\exampleAdapter1\exampleAdapter1\obj\x86\Debug\exampleAdapter1.exe
+c:\users\klim2\documents\visual studio 2010\Projects\exampleAdapter1\exampleAdapter1\obj\x86\Debug\exampleAdapter1.pdb
+E:\ШП\Адаптер\exampleAdapter1\exampleAdapter1\obj\x86\Debug\exampleAdapter1.exe
+E:\ШП\Адаптер\exampleAdapter1\exampleAdapter1\obj\x86\Debug\exampleAdapter1.pdb
