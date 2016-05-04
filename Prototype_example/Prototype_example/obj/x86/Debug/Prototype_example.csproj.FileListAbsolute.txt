@@ -1,0 +1,4 @@
+c:\users\klim2\documents\visual studio 2010\Projects\Prototype_example\Prototype_example\bin\Debug\Prototype_example.exe
+c:\users\klim2\documents\visual studio 2010\Projects\Prototype_example\Prototype_example\bin\Debug\Prototype_example.pdb
+c:\users\klim2\documents\visual studio 2010\Projects\Prototype_example\Prototype_example\obj\x86\Debug\Prototype_example.exe
+c:\users\klim2\documents\visual studio 2010\Projects\Prototype_example\Prototype_example\obj\x86\Debug\Prototype_example.pdb
