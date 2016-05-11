@@ -18,10 +18,40 @@ namespace MatrixDecorator
     {
         static void Main(string[] args)
         {
+            //клиентская часть
+            IMatrix matrix = new Matrix(2,2);
+            matrix.setElement(3, 1, 1);
+            matrix.setElement(0, 1, 2);
+            matrix.setElement(4, 2, 1);
+            matrix.setElement(5, 2, 2);
+
+            IMatrix decorator_matrix = new TransMatrix(matrix);
+            Console.WriteLine("Simple matrix : ");
+            for (int i = 0; i < matrix.getSizeCols(); i++)
+            {
+                for (int j = 0; j < matrix.getSizeRows(); j++)
+                {
+                    Console.Write(matrix.getElement(i+1,j+1));
+                }  
+                Console.WriteLine("\n");
+            }
+            Console.WriteLine("transpon matrix : ");
+            for (int i = 0; i < decorator_matrix.getSizeCols(); i++)
+            {
+                for (int j = 0; j < decorator_matrix.getSizeRows(); j++)
+                {
+                    Console.Write(decorator_matrix.getElement(i+1, j+1));
+                }
+                Console.WriteLine("\n");
+            }
+         
+            Console.ReadKey();
+
+                
         }
 
         // сумма элементов матрицы
-         int Summa(Matrix matrix)
+         int Summa(IMatrix matrix)
         {
             int sum = 0;
             int sizecols = matrix.getSizeCols();
@@ -34,9 +64,7 @@ namespace MatrixDecorator
                     }
                 }
             return sum;
-        }
-
-
+        }     
 
     }
 
